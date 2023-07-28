@@ -1,0 +1,18 @@
+function multiplicacao(){
+    var x=3,y=2;
+    if(x==1){
+    alert(4*y);
+    }
+    if(x==2){
+    alert(4,50*y);
+    }
+    if(x==3){
+    alert(5*y);
+    }
+    if(x==4){
+    alert(2*y);
+    }
+    if(x==5){
+    alert(1,50*y);
+    }
+}
