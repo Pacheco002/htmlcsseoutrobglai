@@ -1,0 +1,24 @@
+function coordenada(){
+    var x=4.5;
+    var y=-2.2;
+    if (x<0 && y<0) {
+    alert("Q3");  
+    }
+    if (x==0 && y==0) {
+    alert("Origem");
+    }
+    if (y==0) {
+    alert("Eixo Y");
+    }
+    if (x==0) {
+    alert("Eixo X");
+    }
+    if (x<0 && y>0){
+    alert("Q2");
+    }
+    if (x>0 && y<0){
+        alert("Q4")
+    }
+    if (x>0 && y>0){
+        alert("Q1")
+    }
